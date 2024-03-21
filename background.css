@@ -13,8 +13,8 @@ p {
 .map {
     box-shadow: 1px 1px 3px black;
     background-color: #101010;
-    padding-left: 28%;
-    padding-right: 26.6%;
+    padding-left: 30%;
+    padding-right: 39.5%;
     padding-top: 45px;
     padding-bottom: 45px;
 }
@@ -71,6 +71,7 @@ p {
 
 @media screen and (max-width:400px) {
     .map {
-    width: 250px;
+    width: 216px;
+    padding-left: 20%;
     }
 }
