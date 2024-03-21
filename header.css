@@ -1,0 +1,103 @@
+/* Titan One */
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Titan+One&display=swap');
+/* Madimi one */
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body {
+    background-color: #eeeae4 ;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family:"Titan One";
+    padding: 20px;
+    text-align: center;
+    color: #EADAC3;
+    background-color: #101010;
+}
+
+a {
+    text-decoration: none;
+    color: #EADAC3;
+    padding: 7px;
+}
+
+
+#loguinho {
+    position: absolute;
+    width: 100px;
+    left: 0;
+    top: 20px;
+}
+
+.menu {
+    text-decoration: none;
+    color: #EADAC3;
+    padding:15px
+}
+
+#teste {
+    height: 400px;
+    width: 500px;
+}
+
+#menu_mobile_icon {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+
+@media screen and (max-width:620px) {
+     #menu {
+        padding: 1.5em;
+     }
+
+     .menu {
+        display: none;
+     }
+
+     #menu_mobile_icon {
+        padding: 0;
+        margin-top: 0 2px 0 2px;
+        top: 5%;
+        display: block;
+        position: absolute;
+        left: 80%;
+        align-content: flex-end;
+        cursor: pointer;
+        background-color: transparent;
+    
+     }
+     #loguinho {
+        position: absolute;
+        width: 100px;
+        left: 0;
+        top: 25px;
+    }
+
+    .menu-mobile {
+        color: #EADAC3;
+        margin: auto;
+        background-color: #101010;
+    }
+    .menu-item {
+        width: 300px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: left;
+        
+    }
+
+    .menu-item:hover {
+        background-color:#eadac3b2;
+        transition: 0.3s;
+        font-size: large;
+        
+    }
+}

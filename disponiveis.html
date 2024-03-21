@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="background.css">
+    <script src="script.js"></script>
+    <title>Galvao Tattoart</title>
+
+    <style>
+        .divs {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+        }
+
+        .div {
+            box-shadow: 1px 1px 3px black;
+            background-color: #101010 ;
+            position: relative;
+            margin: auto;
+            width: 200px;
+            height: 250px;
+            border: 1px solid black;
+        }
+
+        .div:hover {
+            width: 270px;
+            height: 310px;
+            transition: 0.5s;
+        }
+
+        .opcoes {
+            position: absolute;  
+            width: 100%;   
+            height: 75%;       
+        }
+
+        .nome {
+            color: #EADAC3;
+            position: absolute;
+            top: 79%;
+            padding-left: 15%;
+        }
+
+        .preco {
+            color: #EADAC3;
+            position: absolute;
+            top: 87%;
+            padding-left: 17%;
+        }
+
+    @media screen and (max-width:930px) {
+        .nome {
+            padding-left: 0px;
+        }
+        
+        .preco {
+            padding-left: 1%;
+        }
+    }
+
+    @media screen and (max-width:795px) {
+        .divs {
+            flex-direction: column;
+            flex-wrap: wrap;
+           
+        }
+
+        .div {
+            box-shadow: 1px 1px 3px black;
+            margin: auto;
+            width: 200px;
+            height: 250px;
+        }
+
+        .div:hover {
+            width: 250px;
+            height: 300px;
+            transition: 0.5s;
+        }
+
+        .nome {
+            color: #EADAC3;
+            position: absolute;
+            top: 79%;
+            padding-left: 12%;
+        }
+
+        .preco {
+            color: #EADAC3;
+            position: absolute;
+            top: 88%;
+            padding-left: 14%;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" id="loguinho"><img src="images/fundo-header-pq.jpg" alt=""></a>
+        <nav id="menu">
+            <ul>
+            <a href="index.html" class="menu" target="_self">HOME</a>
+
+            <a href="artista.html" class="menu">ARTISTA</a>
+
+            <a href="disponiveis.html" class="menu">DISPONIVEIS</a>
+
+            <a href="localizacao.html" class="menu">LOCALIZACAO</a>
+            </ul>
+
+            <div class="mobile" id="menu_mobile_icon">
+                <button onclick="showMenu()"><img src="images/menu_white_36dp.svg" alt=""></button>
+            </div>
+
+            <div class="menu-mobile" id="menu_mobile"> 
+                <ul id="teste">
+                    <LI></LI>
+                   <li class="menu-item"><a href="index.html">HOME</a></li>
+                   <li class="menu-item"><a href="artista.html">ARTISTA</a></li>
+                   <li class="menu-item"> <a href="disponiveis.html">DISPONIVEIS</a></li>
+                   <li class="menu-item"><a href="localizacao.html">LOCALIZACAO</a></li>
+                </ul></div>
+        </nav>
+    </header>
+
+
+    <section class="main">
+        <article class="divs">
+            <div class="div"> <img class="opcoes" src="images/opcao-1.jpg" alt="opcao tatuagem">
+                <p class="nome">TATUAGEM CORUJA</p> <BR> 
+                <p class="preco">R$800 | 4x R$200</p> </div>
+
+            <div class="div"><img class="opcoes" src="images/opcao-2.jpg" alt="opcao tatuagem"> 
+                <p class="nome">TATUAGEM ZEUS</p> <BR> 
+                <p class="preco">1000 | 4x250</p></BR></div>
+
+            <div class="div"><img class="opcoes" src="images/opcao-3.jpg" alt="">
+                <p class="nome">TATUAGEM INDIA</p> <BR> 
+                <p class="preco">1400 | 4x350</p></BR>
+            </div>
+
+            <div class="div"><img class="opcoes" src="images/opcao-4.jpg" alt="">
+                <p class="nome">TATUAGEM CORUJA</p> <BR> 
+                <p class="preco">2000 | 4x500</p></BR>
+            
+            </div>
+        </article>
+
+    </section>
+</body>
+</html>
