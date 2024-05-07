@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-color: #eeeae4 ;
+    background-color:#EADAC3 ;
     background-size: cover;
 }
 
@@ -11,39 +11,44 @@ p {
 }
 
 .map {
-    box-shadow: 1px 1px 3px black;
+    position: relative;
     background-color: #101010;
     padding-left: 30%;
-    padding-right: 39.5%;
+    padding-right: 42.8%;
     padding-top: 45px;
     padding-bottom: 45px;
+    align-content: center;
+    margin-bottom: -8px;
+
+
 }
 
-.loc1 {
-    box-shadow: inset -1px -1px 3px black;
-    background-color: white;
-    align-items: center;
-    padding: 80px;
-    text-align: justify;
-    margin: 0;
-    
-}
 
 #loc1 {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-}
 
-
-.loc2 {
     box-shadow: inset -1px -1px 3px black;
-    background-color: white;
+    background-color:aliceblue;
     align-items: center;
     padding: 80px;
     text-align: justify;
     margin: 0;
 }
+
+
+#loc2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    box-shadow: inset -1px -1px 3px black;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 80px;
+    text-align: justify;
+    margin: 0; }
 
 
 .main {
