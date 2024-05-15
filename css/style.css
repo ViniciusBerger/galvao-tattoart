@@ -16,8 +16,8 @@ header {
     font-size: 20px;
     color: black;
     text-align: center;
-    background: #101010 url(images/fundo-header.jpg) center center no-repeat;
-    padding: 165px;
+    background: #101010 url(../images/fundo-header.jpg) center center no-repeat;
+    padding: 190px;
 } 
 
 #frase {
@@ -32,7 +32,7 @@ header {
 #menu {
     position: absolute;
     text-align: left;
-    top: 290px;
+    top: 340px;
     left: 10px;
 }
 
@@ -43,7 +43,7 @@ header {
 }
 
 a:hover {
-    background-color: #eadac3b2;
+    text-decoration: underline;
     padding: 13px;
     transition: 0.3s;
 }
@@ -61,7 +61,7 @@ a:hover {
     margin-top: 0px;
     text-align: center;
     font-size: x-large;
-    background-image: url(images/orcamentos.jpg);
+    background-image: url(../images/orcamentos.jpg);
     background-size: cover;
     background-position: center center;
 
@@ -90,7 +90,7 @@ a:hover {
     cursor: pointer;
     text-align: center;
     font-size: x-large;
-    background-image: url(images/artista.jpg);
+    background-image: url(../images/artista.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -113,7 +113,7 @@ a:hover {
 #disponiveis {
     text-align: center;
     font-size: x-large;
-    background-image: url(images/disponiveis.jpg);
+    background-image: url(../images/disponiveis.jpg);
     background-size: cover;
     background-position: top center;
     cursor: pointer;
@@ -136,7 +136,7 @@ a:hover {
 #loc {
         text-align: center;
         font-size: x-large;
-        background-image: url(images/localizacao.jpg);
+        background-image: url(../images/localizacao.jpg);
         background-size: cover;
         background-position: top center;
     }

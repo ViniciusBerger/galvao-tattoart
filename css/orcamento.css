@@ -1,0 +1,49 @@
+
+#email_label {
+    text-align: center;
+}
+
+.body {
+    max-width: 400px;
+    text-align: center;
+    align-items: center;
+    height: 50vh;
+
+    margin-top: 15%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+.input {
+    margin: 5px;
+    padding: 10px;
+    width: -webkit-fill-available;
+    text-align: center;
+}
+
+
+.button_black {
+    font-weight: bold;
+    border: none;
+    color: #EADAC3;
+    background-color: #101010;
+    margin: 5px;
+    padding: 10px;
+    width: -webkit-fill-available;
+    text-align: center;
+}
+
+.button_black:hover {
+    padding: 12px;
+    color: #101010;
+    background-color: #EADAC3;
+
+    transition: 1s
+}
+
+
+.principal {
+    margin-bottom: 40px;
+}

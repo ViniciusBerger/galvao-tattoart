@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="header.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/orcamento.css">
+    <script src="./script.js"></script>
     <title>Galvao Tattoart</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
             </ul>
 
             <div class="mobile" id="menu_mobile_icon">
-                <button onclick="showMenu()"><img src="images/menu_white_36dp.svg" alt=""></button>
+                <button onclick="showMenu()"><img src="../images/menu_white_36dp.svg" alt=""></button>
             </div>
 
             <div class="menu-mobile" id="menu_mobile"> 
@@ -35,5 +36,34 @@
                 </ul></div>
         </nav>
     </header>
+
+
+    <form class="body">
+        <div class="principal">
+            <label for="email" class="input" id="email_label">Email</label> <br>
+            <input type="email" class="input" id="email" placeholder="seuemail@email.com">
+            <br>
+            <label for="password" class="input">senha</label> <br>
+            <input type="password" class="input" placeholder="Senha">
+        </div>
+
+        <div>
+            <button type="button" class="button_black" disabled> ENTRAR</button>
+        </div>
+
+        <div>
+            <button type="button" class="button_black" disabled> REGISTRAR </button>
+        </div>
+
+        <div>
+            <button type="button" class="button_black" disabled> RECUPERAR SENHA</button>
+        </div>
+
+        <div>
+            <button type="reset" class="button_black">LIMPAR</button>
+        </div>
+
+        
+    </form>
 </body>
 </html>
