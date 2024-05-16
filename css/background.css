@@ -65,7 +65,7 @@ p {
         color: #EADAC3;
     }
 
-@media screen and (max-width:715px) {
+@media screen and (max-width:500px) {
     .map {
         padding-left: 35%;
         margin-right: -80px;
