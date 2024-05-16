@@ -5,14 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/orcamento.css">
-    <script src="./script.js"></script>
+
+    <script>
+        
+
+function ShowMenu() {
+    let menuEl = document.querySelector(".menu-mobile")
+if (menuEl.style.display == "none") {
+    menuEl.style.display = "block"
+} else {
+    menuEl.style.display = "none"
+}}
+
+    </script>
+
     <title>Galvao Tattoart</title>
 </head>
 <body>
     <header>
-        <a href="#" id="loguinho"><img src="images/fundo-header-pq.jpg" alt=""></a>
+        <a href="index.html" id="loguinho"><img src="../images/fundo-header-pq.jpg" alt="logo_marca" style="list-style: none;"></a>
         <nav id="menu">
-            <ul>
+            <ul class="list_menu">
             <a href="index.html" class="menu" target="_self">HOME</a>
 
             <a href="#" class="menu">ARTISTA</a>
@@ -23,7 +36,7 @@
             </ul>
 
             <div class="mobile" id="menu_mobile_icon">
-                <button onclick="showMenu()"><img src="../images/menu_white_36dp.svg" alt=""></button>
+                <button onclick="ShowMenu()"><img src="../images/menu_white_36dp.svg" alt=""></button>
             </div>
 
             <div class="menu-mobile" id="menu_mobile"> 
@@ -65,5 +78,7 @@
 
         
     </form>
+
+
 </body>
 </html>

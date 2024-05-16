@@ -1,12 +1,14 @@
+let menuEl = document.querySelector(".mobile")
 
-function showMenu() {
-let menu = document.querySelector(".menu-mobile")
+function ShowMenu() {
 if (menu.style.display == "none") {
     menu.style.display = "block"
 } else {
     menu.style.display = "none"
-}
-}
+}}
+
+menuEl.addEventListener("click", showMenu())
+
 
 function validateField(email) {
     const email = document.getElementById(email)

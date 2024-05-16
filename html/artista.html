@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
     <link rel="stylesheet" href="../css/header.css">
+
+    <script>
+         
+        
+
+        function showMenu() {
+            let menuEl = document.querySelector(".menu-mobile")
+        if (menuEl.style.display == "none") {
+            menuEl.style.display = "block"
+        } else {
+            menuEl.style.display = "none"
+        }}
+        
+            
+    </script>
+
     <title>Galvao Tattoart</title>
 </head>
 <body>
     <header>
-        <a href="#" id="loguinho"><img src="images/fundo-header-pq.jpg" alt=""></a>
+        <a href="#" id="loguinho"><img src="../images/fundo-header-pq.jpg" alt=""></a>
         <nav id="menu">
             <ul>
             <a href="index.html" class="menu" target="_self">HOME</a>

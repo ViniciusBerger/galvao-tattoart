@@ -74,9 +74,10 @@ a {
      }
      #loguinho {
         position: absolute;
-        width: 100px;
-        left: 0;
+        width: 300px;
+        left: -20%;
         top: 25px;
+        list-style: none;
     }
 
     .menu-mobile {
